@@ -1,0 +1,16 @@
+/* HEX — fresh mint accents. Loaded after the existing theme. */
+:root{--hex-mint:#78f5af;--hex-green:#21bf77;--hex-deep:#138e5a;--hex-glow:rgba(52,211,153,.30);
+--g-emerald:#10b981;--g-cyan:#16ba86;--g-glow:rgba(52,211,153,.25);--acc:#10b981;--ok:#16a36a;}
+.brand-name,.auth-brand b,.login-brand b,.brand b,.auth-heading b,
+.login-shell .brand b,.hero-brand b{
+  color:#62e7a1 !important;
+  text-shadow:0 0 12px rgba(56,221,145,.32) !important;
+}
+.sidebar .brand-name{color:#30c784 !important;}
+button[type=submit],.btn-primary,.login-btn,.auth-btn{
+  border-color:rgba(34,197,112,.52) !important;
+  box-shadow:0 6px 22px rgba(24,164,101,.18) !important;
+}
+input:focus,textarea:focus,select:focus{outline-color:#41d69b !important;border-color:#35c98c !important;}
+a:hover,.nav-item.active,.nav-item:hover{--g-glow:rgba(35,196,120,.25);}
+::selection{background:rgba(74,222,128,.25) !important;}
